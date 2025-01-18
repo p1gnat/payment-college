@@ -20,6 +20,7 @@ app.get("/accounts", (req, res) => {
       id: elem.id,
       name: elem.name,
       cardNumber: `****-****-****-${elem.cardNumber.slice(-4)}`,
+      cardNumberFull: elem.cardNumber,
       balance: elem.balance,
     }))
   );

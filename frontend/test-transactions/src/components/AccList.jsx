@@ -24,6 +24,7 @@ const AccList = ({ refresh }) => {
             <h1>Id: {elem.id}</h1>
             <p>Name: {elem.name}</p>
             <p>cardNumber: {elem.cardNumber}</p>
+            <p>cardNumberFull: {elem.cardNumberFull}</p>
             <p>Balance: {elem.balance}</p>
           </li>
         );
