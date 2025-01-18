@@ -51,7 +51,7 @@ const Transaction = ({ refresh, setRefresh }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form style={{ marginTop: "50px" }} onSubmit={handleSubmit(onSubmit)}>
       <div>
         <input
           type="text"
